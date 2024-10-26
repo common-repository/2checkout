@@ -1,0 +1,39 @@
+/*payment section design*/
+.twoco-input-group {
+	display: flex;
+	width: max-content;
+	border: 1px solid #000;
+	border-radius: 4px;
+	overflow: hidden;
+	height: 35px;
+}
+.twoco-prepend {
+	padding: 4px 10px;
+	color: #fff;
+}
+.twoco-input-group input.twoco-paying-amount {
+	border: none;
+	outline: none;
+	padding: 6px;
+	padding: 0.428571429rem;
+	height: 100%;
+	width: 150px;
+	margin: auto;
+}
+.twoco-pay-section .twoco-pay-btn {
+	margin: 0px;
+	line-height: 0px;
+	padding: 15px 10px;
+}
+.twoco-custom-fields{}
+.twoco-custom-fields .twoco-input-group {
+	display: block;
+	border: none;
+	margin: 10px 0px;
+	height: auto;
+}
+.twoco-custom-fields .twoco-input-group label {
+	margin-bottom: 10px;
+}
+.twoco-custom-fields .twoco-input-group input,
+.twoco-custom-fields .twoco-input-group select{}

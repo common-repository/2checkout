@@ -1,0 +1,219 @@
+.notice.cx-notice.2checkout-notice {
+	padding: 0 0 0 0;
+}
+.2checkout-notice a {
+	display: flex;
+}
+.2checkout-notice a:focus {
+	box-shadow: 0 0 0 0;
+}
+.2checkout-notice img {
+	max-width: 100%;
+}
+/*help tab*/
+#2checkout-helps{
+	border: 1px solid #f0f0f0;
+}
+#2checkout-helps .2checkout-help{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 4px 8px;
+}
+#2checkout-helps .2checkout-help-heading {
+	margin: 5px 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+#2checkout-helps .2checkout-help-heading a, 
+#2checkout-helps .2checkout-help-text a{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-color: transparent;
+	background-image: linear-gradient(60deg, #4054B2 20%, #f2295b 80%);
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#2checkout-helps .2checkout-help-heading .heading-text {
+	color: #515151;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#2checkout-helps .2checkout-help-text > p {
+	font-size: 15px;
+}
+#2checkout-helps .2checkout-help-text > p:first-child {
+	margin: 0;
+}
+#2checkout-helps .2checkout-help-text {
+	padding: 8px;
+}
+#2checkout_help ul li {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+#2checkout_help ul li:last-child {
+	border-bottom: none;
+}
+#2checkout_help ul li p {
+	font-size: 14px;
+	margin-top: 5px;
+}
+#2checkout_help ul li a {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-color: transparent;
+	background-image: linear-gradient(60deg, #4054B2 20%, #f2295b 80%);
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#2checkout_help ul li p {
+	font-size: 14px;
+}
+.cx-section .wl-more {
+	font-size: 14px !important;
+}
+#2checkout_help.cx-section ul{
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+}
+#2checkout_help.cx-section ul li.wl_help_tablink {
+	 float: left;
+	 border: none;
+	 outline: none;
+	 cursor: pointer;
+	 padding: 14px 0;
+	 font-size: 17px;
+	 width: 33%;
+	 text-align: center;
+	 border-bottom: 10px solid #ccc;
+}
+#2checkout_help.cx-section ul li.wl_help_tablink.active {
+	border-bottom: 10px solid #c36;
+}
+#2checkout_help.cx-section ul li#wl_vidtt.wl_help_tablink.active {
+	border-bottom: 10px solid #4054b2;
+}
+#2checkout_help.cx-section ul li#wl_support.wl_help_tablink.active {
+	border-bottom: 10px solid #009900;
+}
+#2checkout_help.cx-section .tabcontent{
+	display: none;
+}
+#2checkout_help.cx-section #wl_vidtt_content.tabcontent{
+	text-align: center;
+}
+#2checkout_help.cx-section .tabcontent.active{
+	display: block;
+}
+#2checkout_help.cx-section #wl_support_content.tabcontent p {
+	font-size: 16px
+}
+#2checkout_help.cx-section #wl_support_content.tabcontent #support_btn_div {
+	text-align: center;
+}
+#2checkout_help.cx-section #wl_support_content.tabcontent #support_btn {
+	background-color: transparent;
+	background-image: linear-gradient(to right, #3B2C73, #E9345F);
+	padding: 15px 40px;
+	border: none;
+	margin-right: 4px;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+}
+/*end help tab*/
+
+
+/*help tab design start*/
+.twoco_tab_btns .twoco_help_tablinks {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.twoco_tab_btns .twoco_help_tablinks .twoco_help_tablink {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 10px solid #ccc !important;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.twoco_tab_btns .twoco_help_tablinks .twoco_help_tablink.active {
+    border-color: #c36 !important;
+}
+.twoco_tabcontent {
+    display: none;
+}
+.twoco_tabcontent.active {
+    display: block;
+}
+#twoco_vidtt_content iframe {
+    margin: auto;
+}
+/*help tab design end*/
+#twoco_video_content {
+	text-align: center;
+}
+#twoco_support_content #support_btn {
+	background-color: transparent;
+	background-image: linear-gradient(to right, #3B2C73, #E9345F);
+	padding: 8px 40px;
+	border: none;
+	margin-right: 4px;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+}
+#twoco_support_content #support_btn_div {
+	text-align: center;
+}
+#cx-overview li a {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/*short code copy button*/
+#twoco_payment_shortcode .twoco-shortcode{
+    display: flex;
+    position: relative;
+}
+#twoco-sc-copy-btn{
+    padding: 0px 5px;
+}
+#twoco-sc-copy-btn .dashicons {
+    color: #2271b1;
+    line-height: 28px;
+}
+#cx-field_fieldset_layout .cx-label{
+    margin-top: -6%;
+}
+#twoco_payment_shortcode .twoco-shortcode #twoco-sc-copied-notice {
+    position: absolute;
+    text-align: center;
+    background: #2271b1;
+    color: #fff;
+    padding: 1px;
+    display: none;
+    height: 94%;
+    width: 80%;
+    bottom: -12px;
+    line-height: 33px;
+}
+#twoco-sc-generator {
+    border: 1px solid #2271b1;
+    padding: 3px 10px;
+    background-color: #fff;
+    color: #424242;
+    width: 80%;
+}
+#twoco-sc-copy-btn {
+    padding: 3px 10px;
+    border: 1px solid #2271b1;
+    margin-left: 6px;
+}
